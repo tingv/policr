@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: app-test
-    image: bluerain/policr:build
+    image: meishixiu/policr:build
     pull: true
     commands:
       - shards --production
@@ -18,7 +18,7 @@ steps:
       - npm run deploy --prefix ./assets
 
   - name: app-build
-    image: bluerain/policr:build
+    image: meishixiu/policr:build
     pull: true
     commands:
       - shards build policr --release --progress --production --warnings=all
@@ -28,8 +28,9 @@ steps:
   - name: app-image-push
     image: plugins/docker
     settings:
-      repo: bluerain/policr
-      username: bluerain
+      repo: meishixiu/policr
+      username:
+        from_secret: docker_username
       password:
         from_secret: docker_password
       dockerfile: Dockerfile
@@ -41,7 +42,7 @@ steps:
         - push
 
   - name: sam-build
-    image: bluerain/policr:build
+    image: meishixiu/policr:build
     pull: true
     commands:
       - shards build sam --release --progress --production --warnings=all
@@ -54,8 +55,9 @@ steps:
   - name: sam-image-push
     image: plugins/docker
     settings:
-      repo: bluerain/policr
-      username: bluerain
+      repo: meishixiu/policr
+      username:
+       from_secret: docker_username
       password:
         from_secret: docker_password
       dockerfile: sam.Dockerfile
