@@ -2,7 +2,7 @@ version: "3"
 
 services:
   server:
-    image: bluerain/policr
+    image: meishixiu/policr
     stdin_open: true
     ports:
       - 8090:8080
