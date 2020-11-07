@@ -63,7 +63,7 @@ module Policr
 
       # 举报发起人无法投票
       # 例外：机器人作者作为发起人无视这条限制
-      if report && report.author_id == from_user_id && (user = query.from) && (user.username != "Hentioe")
+      if report && report.author_id == from_user_id && (user = query.from) && (user.username != "AppleArcade")
         bot.answer_callback_query(query.id, text: t("voting.author_cant_vote"), show_alert: true)
         return
       end
