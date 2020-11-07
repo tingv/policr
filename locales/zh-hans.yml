@@ -1,4 +1,4 @@
-start: "ε٩(๑> ₃ <)۶з 我那么复杂，你为什么不来我的[官网](https://policr.bluerain.io)看看呢～\n看完以后，有什么其它想说的，也可以直接跟我说～"
+start: "我那么复杂，你为什么不来我的[官网](https://policr.bluerain.io)看看呢～\n看完以后，有什么其它想说的，也可以直接跟我说～"
 getting_started: |
   在您决定使用本机器人的时候，仍需要强调一些必要的对功能的认知。虽然在首页有相关说明，但是为了避免误会，在此专门进行简短的说明。
 
@@ -197,17 +197,17 @@ baned_menu:
   unban: "解除封禁"
   whitelist: "加入白名单"
 halal:
-  found: "d(`･∀･)b 诶发现一名清真，看我干掉它……"
-  kicked: "(ﾉ>ω<)ﾉ 已成功丢出[一只](tg://user?id=%{user_id})清真，真棒！"
+  found: "发现一名清真，看我干掉它……"
+  kicked: "已成功丢出[一只](tg://user?id=%{user_id})清真，真棒！"
   kick_failed: "╰(〒皿〒)╯ [这枚](tg://user?id=%{user_id})清真移除失败了。原因：%{reason}"
 captcha_result:
   error:
     desc: "踢不掉[他](tg://user?id=%{user_id})诶（%{reason}）……"
     is_admin: "他！有！权！限！"
     not_rights: "我！没！权！限！"
-  admin_ban: "(|||ﾟдﾟ) 好吓人～ [他](tg://user?id=%{user_id})还没来得及验证就被 %{admin} 直接干掉了。"
-  timeout: "(〒︿〒) [他](tg://user?id=%{user_id})验证超时[⁽¹⁾](https://policr.bluerain.io/qa#verification_failure)，永久地离开了我们[⁽²⁾](https://policr.bluerain.io/qa#verification_failure_result)。 #FAILURE #TIMEOUT"
-  wrong: "(〒︿〒) [他](tg://user?id=%{user_id})验证错误[⁽¹⁾](https://policr.bluerain.io/qa#verification_failure)，永久地离开了我们[⁽²⁾](https://policr.bluerain.io/qa#verification_failure_result)。 #FAILURE #MISTAKE"
+  admin_ban: "好吓人～ [他](tg://user?id=%{user_id})还没来得及验证就被 %{admin} 直接干掉了。"
+  timeout: "[他](tg://user?id=%{user_id})验证超时[⁽¹⁾](https://policr.bluerain.io/qa#verification_failure)，永久地离开了我们[⁽²⁾](https://policr.bluerain.io/qa#verification_failure_result)。 #FAILURE #TIMEOUT"
+  wrong: "[他](tg://user?id=%{user_id})验证错误[⁽¹⁾](https://policr.bluerain.io/qa#verification_failure)，永久地离开了我们[⁽²⁾](https://policr.bluerain.io/qa#verification_failure_result)。 #FAILURE #MISTAKE"
 restrict_bot_menu:
   derestrict: "解除限制"
   remove: "直接移除"
@@ -219,20 +219,20 @@ only_group: "此指令仅在群组中可用。"
 only_private: "此指令仅在私聊中可用。"
 private_settings_sended: "已私聊设置。"
 no_managed_groups: "无受管群组，无法申请后台令牌。"
-unban_message: "o(￣▽￣)ｄ [TA](tg://user?id=%{user_id}) 被善良的 %{admin} 解封了，随时可以重新回来。"
-add_to_whitelist: "o(￣▽￣)ｄ 已被解封并加入到[白名单](https://policr.bluerain.io/qa#whitelist)，下次不会再干[TA](tg://user?id=%{user_id})了。"
+unban_message: "[TA](tg://user?id=%{user_id}) 被善良的 %{admin} 解封了，随时可以重新回来。"
+add_to_whitelist: "已被解封并加入到[白名单](https://policr.bluerain.io/qa#whitelist)，下次不会再干[TA](tg://user?id=%{user_id})了。"
 unban_error: "解封失败，"
 unban_bot: "已解除限制，希望是个有用的机器人。"
 remove_bot: "已经被移除啦~ 安全危机解除！"
 obsolete_btn: "此消息的[内联键盘功能已经过时了](https://policr.bluerain.io/qa#inline_keyboard_invalid)，没有进行任何操作~"
 unrelated_click: "又不是问你，自作多情！"
-unrelated_warning: "(#`Д´)ﾉ 请无关人员不要来搞事"
+unrelated_warning: "请无关人员不要来搞事"
 pass_alert: "✔ 验证通过"
 no_pass_alert: "✖ 未通过验证"
-pass_by_self: "(*´∀`)~♥ 恭喜[您](tg://user?id=%{user_id})通过了验证，逃过一劫。"
+pass_by_self: "恭喜[您](tg://user?id=%{user_id})通过了验证，逃过一劫。"
 pass_by_admin: "[这家伙](tg://user?id=%{user_id})被 %{admin}  开了后门，大家快喷他！"
 pass_slow_alert: "验证通过，但是晚了一点点，再去试试？"
-pass_slow_receipt: "(´ﾟдﾟ`) TA 通过了验证，但是手慢了那么一点点，再给 TA 一次机会……"
+pass_slow_receipt: "TA 通过了验证，但是手慢了那么一点点，再给 TA 一次机会……"
 template:
   desc: |
     您正在定制验证的提示模板，这是个性化验证提示的一个有效途径。通过模板可以注入一系列的变量，以组成自己想要的提示内容。
