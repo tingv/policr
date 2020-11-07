@@ -32,6 +32,7 @@ dependencies:
     github: hugoabonizio/schedule.cr
   kemal:
     github: kemalcr/kemal
+    version: 0.26.1
   kemal-session:
     github: kemalcr/kemal-session
   ksuid:
